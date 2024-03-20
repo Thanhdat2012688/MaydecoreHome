@@ -1,0 +1,781 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shop Detail</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="asset/fonts/stylesheet.css"/>
+    <link rel="stylesheet" href="asset/fonts/RageItalic/stylesheet.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="./asset/icons/fontawesome-free-6.1.1-web/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.1/css/swiper.min.css"/>
+    <link rel="stylesheet" href="./asset/js/jquery-nice-select-1.1.0/jquery-nice-select-1.1.0/css/nice-select.css">
+    <link rel="stylesheet" href="./asset/css/base.css"/>
+    <link rel="stylesheet" href="./asset/css/home.css"/>
+    <link rel="stylesheet" href="./asset/css/home-resposive.css"/>
+    <link rel="stylesheet" href="./asset/css/subpages.css"/>
+    <link rel="stylesheet" href="./asset/css/subpages-responsive.css"/>
+</head>
+<body>
+    <!-- header PC -->
+    <header class="header-pc d-none d-lg-block d-xl-block">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <div class="header-navbar">
+                        <ul class="header-list">
+                            <li class="list-item">
+                                <a href="./index.html" class="item-link link-option">Home</a>
+                            </li>
+                            <li class="list-item">
+                                <a href="./about.html" class="item-link link-option">About</a>
+                            </li>
+                            <li class="list-item">
+                                <a href="./service.html" class="item-link link-option">Services</a>
+                            </li>
+                            <li class="list-item">
+                                <a href="./shop.html" class="item-link link-option">Shop</a>
+                            </li>
+                        </ul>
+                        <a href="./index.html" class="logo">
+                            <img src="./asset/imgs/logo.svg" alt="">
+                        </a>
+                        <ul class="header-list options">
+                            <li class="list-item">
+                                <a href="./collections.html" class="item-link link-option">COLLECTIONS</a>
+                                <ul class="list-item-options">
+                                    <li>
+                                        <a href="./collections-detail.html">landscape painting</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">portrait painting</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">religious paintings</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">abstract</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">animal paintings</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">botanical painting</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Other topics</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="list-item">
+                                <a href="./gallery.html" class="item-link link-option">Gallery</a>
+                            </li>
+                            <li class="list-item">
+                                <a href="./contact.html" class="item-link link-option">CONTACT</a>
+                            </li>
+                            <li class="list-item">
+                                <a href="./login.html" class="item-link btn-main">Login</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header Mobile + Tablet -->
+    <header class="header-mobile d-block d-xl-none d-lg-none">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <div class="mobile-nav">
+                        <a href="./index.html" class="logo-mb">
+                            <img src="./asset/imgs/logo.svg" alt="">
+                        </a>
+                        <div class="bars">
+                            <i class="fa-solid fa-bars"></i>
+                        </div>
+                        <ul class="mobile-list">
+                            <li class="mobile-list-item">
+                                <a class="mobile-list-item-link" href="./index.html">Home</a>
+                            </li>
+                            <li class="mobile-list-item">
+                                <a class="mobile-list-item-link" href="./about.html">About</a>
+                            </li>
+                            <li class="mobile-list-item">
+                                <a class="mobile-list-item-link" href="./service.html">Services</a>
+                            </li>
+                            <li class="mobile-list-item">
+                                <a class="mobile-list-item-link" href="./shop.html">Shop</a>
+                            </li>
+                            <li class="mobile-list-item">
+                                <a class="mobile-list-item-link" href="./collections.html">COLLECTIONS</a>
+                            </li>
+                            <li class="mobile-list-item">
+                                <a class="mobile-list-item-link" href="#">Gallery</a>
+                            </li>
+                            <li class="mobile-list-item">
+                                <a class="mobile-list-item-link" href="./contact.html">CONTACT</a>
+                            </li>
+                            <li class="mobile-list-item">
+                                <a href="./login.html" class="item-link btn-main">Login</a>
+                            </li>
+                            <div class="close-mobile-list">
+                                <i class="fa-solid fa-xmark"></i>
+                            </div>
+                        </ul>
+                        <div class="overlay"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- banner -->
+    <section class="banner__area">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <div class="banner">
+                        <img class="banner-img" src="./asset/imgs/bg-collections-page.jfif" alt="">
+                        <div class="banner-title">
+                            <h1></h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- cart__area -->
+    <section class="cart__area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-9 col-xl-9 col-12">
+                    <div class="row">
+                        <div class="col-lg-6 col-xl-6 col-md-6 col-12">
+                            <div class="swiper mySwiper2 cartSlider" style="--swiper-navigation-color: #003961; --swiper-pagination-color: #fff" data-aos="fade-up">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="thumb">
+                                            <img src="./asset/imgs/gallery7-rendy-novantino-min.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="thumb">
+                                            <img src="./asset/imgs/gallery1-picture-frame-wall-min.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="thumb">
+                                            <img src="./asset/imgs/gallery2-collov-home-design.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="thumb">
+                                            <img src="./asset/imgs/gallery3-sincerely-media.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="thumb">
+                                            <img src="./asset/imgs/gallery4-dannie-jing.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="thumb">
+                                            <img src="./asset/imgs/gallery5-room-sofa.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="thumb">
+                                            <img src="./asset/imgs/gallery6-pexels-matheus-viana.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="thumb">
+                                            <img src="./asset/imgs/gallery8-spacejoy-min.jpg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-button-next"></div>
+                                <div class="swiper-button-prev"></div>
+                            </div>
+                            <div thumbsSlider="" class="swiper mySwiper cartSliderItem" data-aos="fade-up">
+                                <div class="swiper-wrapper">
+                                    <div class="swiper-slide">
+                                        <div class="thumb">
+                                            <img src="./asset/imgs/gallery7-rendy-novantino-min.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="thumb">
+                                            <img src="./asset/imgs/gallery1-picture-frame-wall-min.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="thumb">
+                                            <img src="./asset/imgs/gallery2-collov-home-design.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="thumb">
+                                            <img src="./asset/imgs/gallery3-sincerely-media.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="thumb">
+                                            <img src="./asset/imgs/gallery4-dannie-jing.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="thumb">
+                                            <img src="./asset/imgs/gallery5-room-sofa.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="thumb">
+                                            <img src="./asset/imgs/gallery6-pexels-matheus-viana.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                        <div class="thumb">
+                                            <img src="./asset/imgs/gallery8-spacejoy-min.jpg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-xl-6 col-md-6 col-12">
+                            <div class="product-detail">
+                                <div class="product-detail-name" data-aos="fade-up">
+                                    <h3 class="category-item-title">Living Room Painting</h3>
+                                </div>
+                                <div class="product-detail-evaluate" data-aos="fade-up">
+                                    <div class="vote">
+                                        <span>5</span>
+                                        <div class="star">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                    </div>
+                                    <div class="evaluate-spr"></div>
+                                    <div class="ratings">
+                                        <span>200 Ratings</span>
+                                    </div>
+                                    <div class="evaluate-spr"></div>
+                                    <div class="sold">
+                                        <span>200 Sold</span>
+                                    </div>
+                                </div>
+                                <div class="product-detail-desc" data-aos="fade-up">
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                </div>
+                                <div class="product-detail-info" data-aos="fade-up">
+                                    <span class="product-detail-title">Author:</span>
+                                    <span>Lucia</span>
+                                </div>
+                                <div class="product-detail-info" data-aos="fade-up">
+                                    <span class="product-detail-title">topic:</span>
+                                    <span>Landscape Painting</span>
+                                </div>
+                                <div class="product-detail-info" data-aos="fade-up">
+                                    <span class="product-detail-title">material:</span>
+                                    <span>Oil Painting</span>
+                                </div>
+                                <div class="product-detail-info info-size" data-aos="fade-up">
+                                    <span class="product-detail-title">Size:</span>
+                                    <select id="select" class="filter-select shop-filter-select">
+                                        <option value="Default Sorting">1051 &#10005; 1500 (px)</option>
+                                        <option value="Best Popular">1205 &#10005; 1795 (px)</option>
+                                        <option value="Best Seller">1500 &#10005; 2102 (px)</option>
+                                        <option value="Best Recent">1795 &#10005; 2398 (px)</option>
+                                        <option value="Gallery">2398 &#10005; 3000 (px)</option>
+                                    </select>
+                                </div>
+                                <div class="product-detail-info" data-aos="fade-up">
+                                    <span class="product-detail-title">Quantity:</span>
+                                    <div class="quantity-detail">
+                                        <i class="fa-solid fa-minus quantityMinus"></i>
+                                        <span>1</span>
+                                        <i class="fa-solid fa-plus quantityPlus"></i>
+                                    </div>
+                                </div>
+                                <div class="product-detail-info" data-aos="fade-up">
+                                    <span class="product-detail-title">Price:</span>
+                                    <div>
+                                        <span>$</span>
+                                        <span class="product-detail-price">80</span>
+                                    </div>
+                                </div>
+                                <div class="product-detail-separate" data-aos="fade-up"></div>
+                                <div class="product-detail-buy" data-aos="fade-up">
+                                    <div class="content-more">
+                                        <a href="./cart.html"><i class="fa-solid fa-cart-plus"></i> Add to cart</a>
+                                    </div>
+                                    <a href="./pay.html" class="btn-main">Buy Now</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="cart-separate" data-aos="fade-up"></div>
+                        </div>
+                        <div class="col-12">
+                            <div class="cart-review">
+                                <h3 class="category-item-title" data-aos="fade-up">Review</h3>
+                                <div class="cart-review-item" data-aos="fade-up">
+                                    <a href="#" class="cart-review-item-thumb">
+                                        <img src="./asset/imgs/avatar-riviewer.jpeg" alt="">
+                                    </a>
+                                    <div class="cart-review-item-info">
+                                        <a href="#" class="cart-review-item-info-name">Maria Anna</a>
+                                        <div class="vote">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                        <div class="cart-review-item-info-desc">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="cart-review-item" data-aos="fade-up">
+                                    <a href="#" class="cart-review-item-thumb">
+                                        <img src="./asset/imgs/avatar-riviewer.jpeg" alt="">
+                                    </a>
+                                    <div class="cart-review-item-info">
+                                        <a href="#" class="cart-review-item-info-name">Maria Anna</a>
+                                        <div class="vote">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                        <div class="cart-review-item-info-desc">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="cart-review-item" data-aos="fade-up">
+                                    <a href="#" class="cart-review-item-thumb">
+                                        <img src="./asset/imgs/avatar-riviewer.jpeg" alt="">
+                                    </a>
+                                    <div class="cart-review-item-info">
+                                        <a href="#" class="cart-review-item-info-name">Maria Anna</a>
+                                        <div class="vote">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                        <div class="cart-review-item-info-desc">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="cart-review-item" data-aos="fade-up">
+                                    <a href="#" class="cart-review-item-thumb">
+                                        <img src="./asset/imgs/avatar-riviewer.jpeg" alt="">
+                                    </a>
+                                    <div class="cart-review-item-info">
+                                        <a href="#" class="cart-review-item-info-name">Maria Anna</a>
+                                        <div class="vote">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                        <div class="cart-review-item-info-desc">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="cart-review-item" data-aos="fade-up">
+                                    <a href="#" class="cart-review-item-thumb">
+                                        <img src="./asset/imgs/avatar-riviewer.jpeg" alt="">
+                                    </a>
+                                    <div class="cart-review-item-info">
+                                        <a href="#" class="cart-review-item-info-name">Maria Anna</a>
+                                        <div class="vote">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                        <div class="cart-review-item-info-desc">
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-12">
+                    <div class="cart-prodcut-hot">
+                        <h3 class="category-item-title" data-aos="fade-up">Similar Products</h3>
+                        <div class="product-item" data-aos="fade-up">
+                            <div class="row">
+                                <div class="col-6">
+                                    <a href="#"class="thumb">
+                                        <img src="./asset/imgs/gallery1-picture-frame-wall-min.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="col-6">
+                                    <div class="product-item-info">
+                                        <div class="product-item-info-name">
+                                            <a href="#">Landscape</a>
+                                        </div>
+                                        <div class="rate">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                        <div class="product-item-info-price">
+                                            <span>$50.00</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> 
+                        <div class="product-item" data-aos="fade-up">
+                            <div class="row">
+                                <div class="col-6">
+                                    <a href="#"class="thumb">
+                                        <img src="./asset/imgs/gallery2-collov-home-design.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="col-6">
+                                    <div class="product-item-info">
+                                        <div class="product-item-info-name">
+                                            <a href="#">Landscape</a>
+                                        </div>
+                                        <div class="rate">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                        <div class="product-item-info-price">
+                                            <span>$50.00</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-item" data-aos="fade-up">
+                            <div class="row">
+                                <div class="col-6">
+                                    <a href="#"class="thumb">
+                                        <img src="./asset/imgs/gallery3-sincerely-media.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="col-6">
+                                    <div class="product-item-info">
+                                        <div class="product-item-info-name">
+                                            <a href="#">Landscape</a>
+                                        </div>
+                                        <div class="rate">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                        <div class="product-item-info-price">
+                                            <span>$50.00</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-item" data-aos="fade-up">
+                            <div class="row">
+                                <div class="col-6">
+                                    <a href="#"class="thumb">
+                                        <img src="./asset/imgs/gallery4-dannie-jing.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="col-6">
+                                    <div class="product-item-info">
+                                        <div class="product-item-info-name">
+                                            <a href="#">Landscape</a>
+                                        </div>
+                                        <div class="rate">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                        <div class="product-item-info-price">
+                                            <span>$50.00</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-item" data-aos="fade-up">
+                            <div class="row">
+                                <div class="col-6">
+                                    <a href="#"class="thumb">
+                                        <img src="./asset/imgs/gallery5-room-sofa.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="col-6">
+                                    <div class="product-item-info">
+                                        <div class="product-item-info-name">
+                                            <a href="#">Landscape</a>
+                                        </div>
+                                        <div class="rate">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                        <div class="product-item-info-price">
+                                            <span>$50.00</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-item" data-aos="fade-up">
+                            <div class="row">
+                                <div class="col-6">
+                                    <a href="#"class="thumb">
+                                        <img src="./asset/imgs/gallery6-pexels-matheus-viana.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="col-6">
+                                    <div class="product-item-info">
+                                        <div class="product-item-info-name">
+                                            <a href="#">Landscape</a>
+                                        </div>
+                                        <div class="rate">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                        <div class="product-item-info-price">
+                                            <span>$50.00</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="product-item" data-aos="fade-up">
+                            <div class="row">
+                                <div class="col-6">
+                                    <a href="#"class="thumb">
+                                        <img src="./asset/imgs/gallery7-rendy-novantino-min.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="col-6">
+                                    <div class="product-item-info">
+                                        <div class="product-item-info-name">
+                                            <a href="#">Landscape</a>
+                                        </div>
+                                        <div class="rate">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                        <div class="product-item-info-price">
+                                            <span>$50.00</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>  
+                        <div class="product-item" data-aos="fade-up">
+                            <div class="row">
+                                <div class="col-6">
+                                    <a href="#"class="thumb">
+                                        <img src="./asset/imgs/gallery8-spacejoy-min.jpg" alt="">
+                                    </a>
+                                </div>
+                                <div class="col-6">
+                                    <div class="product-item-info">
+                                        <div class="product-item-info-name">
+                                            <a href="#">Landscape</a>
+                                        </div>
+                                        <div class="rate">
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                            <i class="fa-solid fa-star"></i>
+                                        </div>
+                                        <div class="product-item-info-price">
+                                            <span>$50.00</span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer -->
+    <footer class="footer__area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-xl-3 col-md-12 col-sm-12">
+                    <a  href="./index.html" class="footer-logo">
+                        <img src="./asset/imgs/logo.svg" alt="">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-xl-3 col-md-4 col-sm-12">
+                    <div class="footer-menu">
+                        <div class="option-title">
+                            <a href="./index.html">MENU</a>
+                        </div>
+                        <div class="menu">
+                            <ul class="menu-list menu-list-1">
+                                <li>
+                                    <a href="./index.html">Home</a>
+                                </li>
+                                <li>
+                                    <a href="./about.html">About</a>
+                                </li>
+                                <li>
+                                    <a href="./service.html">Services</a>
+                                </li>
+                                <li>
+                                    <a href="./collections.html">Collection</a>
+                                </li>
+                            </ul>
+                            <ul class="menu-list menu-list-2">
+                                <li>
+                                    <a href="./gallery.html">Gallery</a>
+                                </li>
+                                <li>
+                                    <a href="./blog.html">Blog</a>
+                                </li>
+                                <li>
+                                    <a href="./shop.html">Shop</a>
+                                </li>
+                                <li>
+                                    <a href="./sign-up.html">Sign Up</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-xl-3 col-md-4 col-sm-12">
+                    <div class="footer-contact">
+                        <div class="option-title">
+                            <a href="./contact.html">Contact</a>
+                        </div>
+                        <ul class="contact-list">
+                            <li>Hotline: </li>
+                            <li>
+                                <a href="./contact.html">+1 (2345) 678-90-12</a>
+                            </li>
+                            <li>Mail Support:</li>
+                            <li>
+                                <a href="./contact.html"> support@M.A.Y.com</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-xl-3 col-md-4 col-sm-12">
+                    <div class="footer-social">
+                        <div class="option-title">
+                            <a href="#">social</a>
+                        </div>
+                        <ul class="social-list">
+                            <li class="social-list-item">
+                                <a href="#">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li class="social-list-item">
+                                <a href="#">
+                                    <i class="fa-brands fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li class="social-list-item">
+                                <a href="#">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </a>
+                            </li>
+                            <li class="social-list-item">
+                                <a href="#">
+                                    <i class="fa-brands fa-linkedin-in"></i>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="social-app">
+                            <li class="social-app-item">
+                                <a href="#">
+                                    <img src="./asset/imgs/app-store.png" alt="">
+                                </a>
+                            </li>
+                            <li class="social-app-item">
+                                <a href="#">
+                                    <img src="./asset/imgs/google-play.png" alt="">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="footer-spr"></div>
+                </div>
+                <div class="col-lg-12 col-xl-12 col-md-12 col-sm-12">
+                    <div class="footer-commit">
+                        <div class="row">
+                            <div class="col-lg-6 col-xl-6 col-md-6 col-sm-4 order-lg-1 order-md-1 order-3">
+                                <div class="footer-license">
+                                    <span>M.A.YCopyright 2021. All Rights Reserved</span>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-xl-3 col-md-3 col-sm-4 order-lg-2 order-md-2 order-1">
+                                <div class="footer-license license-text-content">
+                                    <a href="#">Terms of Use</a>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-xl-3 col-md-3 col-sm-4 order-lg-3 order-md-3 order-2">
+                                <div class="footer-license license-text-content">
+                                    <a href="#">Privacy Policy</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Code Javascript -->
+    <script src="./asset/js/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="./asset/js/jquery-nice-select-1.1.0/jquery-nice-select-1.1.0/js/jquery.nice-select.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+    <script src="./asset/js/index.js"></script>
+</body>
+</html>

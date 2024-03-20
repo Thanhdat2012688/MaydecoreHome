@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Service</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="asset/fonts/stylesheet.css"/>
+    <link rel="stylesheet" href="asset/fonts/RageItalic/stylesheet.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="./asset/icons/fontawesome-free-6.1.1-web/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.1/css/swiper.min.css"/>
+    <link rel="stylesheet" href="./asset/js/jquery-nice-select-1.1.0/jquery-nice-select-1.1.0/css/nice-select.css">
+    <link rel="stylesheet" href="./asset/css/base.css"/>
+    <link rel="stylesheet" href="./asset/css/home.css"/>
+    <link rel="stylesheet" href="./asset/css/home-resposive.css"/>
+    <link rel="stylesheet" href="./asset/css/subpages.css"/>
+    <link rel="stylesheet" href="./asset/css/subpages-responsive.css"/>
+</head>
+<body>
+    <!-- header PC -->
+    <header class="header-pc d-none d-lg-block d-xl-block">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <div class="header-navbar">
+                        <ul class="header-list">
+                            <li class="list-item">
+                                <a href="./index.html" class="item-link link-option">Home</a>
+                            </li>
+                            <li class="list-item">
+                                <a href="./about.html" class="item-link link-option">About</a>
+                            </li>
+                            <li class="list-item">
+                                <a href="./service.html" class="item-link link-option">Services</a>
+                            </li>
+                            <li class="list-item">
+                                <a href="./shop.html" class="item-link link-option">Shop</a>
+                            </li>
+                        </ul>
+                        <a href="./index.html" class="logo">
+                            <img src="./asset/imgs/logo.svg" alt="">
+                        </a>
+                        <ul class="header-list options">
+                            <li class="list-item">
+                                <a href="./collections.html" class="item-link link-option">COLLECTIONS</a>
+                                <ul class="list-item-options">
+                                    <li>
+                                        <a href="./collections-detail.html">landscape painting</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">portrait painting</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">religious paintings</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">abstract</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">animal paintings</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">botanical painting</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Other topics</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="list-item">
+                                <a href="./gallery.html" class="item-link link-option">Gallery</a>
+                            </li>
+                            <li class="list-item">
+                                <a href="./contact.html" class="item-link link-option">CONTACT</a>
+                            </li>
+                            <li class="list-item">
+                                <a href="./login.html" class="item-link btn-main">Login</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header Mobile + Tablet -->
+    <header class="header-mobile d-block d-xl-none d-lg-none">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <div class="mobile-nav">
+                        <a href="./index.html" class="logo-mb">
+                            <img src="./asset/imgs/logo.svg" alt="">
+                        </a>
+                        <div class="bars">
+                            <i class="fa-solid fa-bars"></i>
+                        </div>
+                        <ul class="mobile-list">
+                            <li class="mobile-list-item">
+                                <a class="mobile-list-item-link" href="./index.html">Home</a>
+                            </li>
+                            <li class="mobile-list-item">
+                                <a class="mobile-list-item-link" href="./about.html">About</a>
+                            </li>
+                            <li class="mobile-list-item">
+                                <a class="mobile-list-item-link" href="./service.html">Services</a>
+                            </li>
+                            <li class="mobile-list-item">
+                                <a class="mobile-list-item-link" href="./shop.html">Shop</a>
+                            </li>
+                            <li class="mobile-list-item">
+                                <a class="mobile-list-item-link" href="./collections.html">COLLECTIONS</a>
+                            </li>
+                            <li class="mobile-list-item">
+                                <a class="mobile-list-item-link" href="#">Gallery</a>
+                            </li>
+                            <li class="mobile-list-item">
+                                <a class="mobile-list-item-link" href="./contact.html">CONTACT</a>
+                            </li>
+                            <li class="mobile-list-item">
+                                <a href="./login.html" class="item-link btn-main">Login</a>
+                            </li>
+                            <div class="close-mobile-list">
+                                <i class="fa-solid fa-xmark"></i>
+                            </div>
+                        </ul>
+                        <div class="overlay"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- banner -->
+    <section class="banner__area">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <div class="banner">
+                        <img class="banner-img" src="./asset/imgs/bg-collections-page.jfif" alt="">
+                        <div class="banner-title">
+                            <h1>Services</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- services__area -->
+    <section class="service__area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-xl-8 col-12 col-service order-lg-1 order-1">
+                    <div class="service-item">
+                        <h2 class="title-content" data-aos="fade-up">interior painting</h2>
+                        <p data-aos="fade-up">Since its founding, May Decor has been committed to offering customers who are having their interiors painted an honest pricing and the best possible quality. 
+                            We have the expertise you need to make your interior look amazing and have finishes that will last, whether your residential or commercial property is a hotel, a townhome, a historic structure, or a mansion.</p>
+                        <h4 data-aos="fade-up">Our services include</h4>
+                        <ul class="service-item-list" data-aos="fade-up">
+                            <li>CComplete surface prep (puttying, caulking, filling holes and repairing cracks).</li>
+                            <li>Protecting all flooring and furniture from dust and splash.</li>
+                            <li>Taking off old paint.</li>
+                            <li>Surface priming to ensure good adherence and color consistency.</li>
+                            <li>Best paint choices for your project, specifically of the highest caliber.</li>
+                            <li>Complete cleanup following each painting project.</li>
+                        </ul>
+                        <div class="content-more" data-aos="fade-up">
+                            <a href="./service-detail.html">View More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-xl-4 col-8 col-service order-lg-2 order-2">
+                    <div class="service-thumb" data-aos="fade-up">
+                        <div class="service-thumb-desc">
+                            <img src="./asset/imgs/gallery7-rendy-novantino-min.jpg" alt="">
+                        </div>
+                        <div class="service-thumb-price">
+                            <h4>From</h4>
+                            <span class="">$ 80</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- services__area -->
+    <section class="service__area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-xl-4 col-8 col-service order-lg-1 order-2">
+                    <div class="service-thumb" data-aos="fade-up">
+                        <div class="service-thumb-desc">
+                            <img src="./asset/imgs/gallery8-spacejoy-min.jpg" alt="">
+                        </div>
+                        <div class="service-thumb-price service-thumb-price-even">
+                            <h4>From</h4>
+                            <span class="">$ 80</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-8 col-xl-8 col-12 col-service order-lg-2 order-1">
+                    <div class="service-item">
+                        <h2 class="title-content" data-aos="fade-up">exterior painting</h2>
+                        <p data-aos="fade-up">The best approach to improve your home's curb appeal is to paint the exterior. With May Decor, you can completely transform your home with no bother, headaches, or concerns. 
+                            Your team of expert exterior painters will produce the best results possible, giving you a finished project you can be proud of and that your neighbors will enviously admire.</p>
+                        <h4 data-aos="fade-up">Our services include</h4>
+                        <ul class="service-item-list" data-aos="fade-up">
+                            <li>Power cleaning (to remove dirt, mildew and oils so new paint adheres and absorbs properly)</li>
+                            <li>Paint removal is necessary to prevent further paint peeling.</li>
+                            <li>Priming (to block stains and offer greater color uniformity) (to block stains and provide better color consistency).</li>
+                            <li>Completely preparing the surface (puttying, caulking, and filling holes).</li>
+                            <li>Restoration of wood (to repair rotten or insect damaged structures).</li>
+                            <li>Best paint choices for your project, specifically of the highest caliber.</li>
+                            <li>Using safe work procedures will help prevent accidents.</li>
+                            <li>Cleaning up completely after each workday</li>
+                        </ul>
+                        <div class="content-more" data-aos="fade-up">
+                            <a href="./service-detail.html">View More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- services__area -->
+    <section class="service__area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-xl-8 col-12 col-service order-lg-1 order-1">
+                    <div class="service-item">
+                        <h2 class="title-content" data-aos="fade-up">wall painting</h2>
+                        <p data-aos="fade-up">We help you find the best Color for Wall Paint design ideas so you can make your home feel cozier and more inviting.
+                             Whether it's emotional, relaxing, or adapting, we have ideas and advice on how to choose the perfect color scheme.</p>
+                        <h4 data-aos="fade-up">Our services include</h4>
+                        <ul class="service-item-list" data-aos="fade-up">
+                            <li>Unique & Aesthethic wall painting ideas & designs</li>
+                            <li>Waterproof service</li>
+                            <li>Best paint options, especially of the highest level, for your project.</li>
+                            <li>Accidents can be avoided by following safe work practices.</li>
+                            <li>Each day during work, comprehensive cleanup is required.</li>
+                        </ul>
+                        <div class="content-more" data-aos="fade-up">
+                            <a href="./service-detail.html">View More</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-xl-4 col-8 col-service order-lg-2 order-2">
+                    <div class="service-thumb" data-aos="fade-up">
+                        <div class="service-thumb-desc">
+                            <img src="./asset/imgs/gallery6-pexels-matheus-viana.jpg" alt="">
+                        </div>
+                        <div class="service-thumb-price">
+                            <h4>From</h4>
+                            <span class="">$ 80</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- services__area -->
+    <section class="service__area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-xl-4 col-8 col-service order-lg-1 order-2">
+                    <div class="service-thumb" data-aos="fade-up">
+                        <div class="service-thumb-desc">
+                            <img src="./asset/imgs/PIC-MOCKUP-3.jpg" alt="">
+                        </div>
+                        <div class="service-thumb-price service-thumb-price-even">
+                            <h4>From</h4>
+                            <span class="">$ 80</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-8 col-xl-8 col-12 col-service order-lg-1 order-1">
+                    <div class="service-item">
+                        <h2 class="title-content" data-aos="fade-up">abstract</h2>
+                        <p data-aos="fade-up">Abstract art uses shapes, colors, forms, and gestural strokes to create its effect rather than attempting to accurately describe a visual reality.</p>
+                        <h4 data-aos="fade-up">Our services include</h4>
+                        <ul class="service-item-list" data-aos="fade-up">
+                            <li>A group of expert painters working professionally produces original works of art.</li>
+                            <li>At the client's desire, freehand painting</li>
+                            <li>All works will be warranted for six months.</li>
+                            <li>Accept to fix damaged images that weren't the customer's doing.</li>
+                        </ul>
+                        <div class="content-more" data-aos="fade-up">
+                            <a href="./service-detail.html">View More</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- service-choose -->
+    <section class="service-choose">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-service">
+                    <h2 class="title-content" data-aos="fade-up">Why choose us</h2>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-service">
+                    <div class="explain-block-item explain-spr" data-aos="fade-up">
+                        <div class="explain-block-item-title">
+                            <span>01</span>
+                            <h4>Reasonable price guarantee</h4>
+                        </div>
+                        <p>We take pride in offering the best price on canvas prints. Simply get in touch with our support staff and we'll match any lower price you find for the same size and print.</p>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-service">
+                    <div class="explain-block-item explain-spr" data-aos="fade-up">
+                        <div class="explain-block-item-title">
+                            <span>02</span>
+                            <h4>Unique creative paintings</h4>
+                        </div>
+                        <p>We have streamlined the art-buying experience with our curated collections of current trends and room settings, as well as a variety of genres, because we recognize that art selection is a process and that it may take time to locate canvas wall art that represent your style and your real self. With original and genuine wall art that may be updated annually or enjoyed forever, our goal is to enliven and inspire our clients.</p>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-service">
+                    <div class="explain-block-item"  data-aos="fade-up">
+                        <div class="explain-block-item-title">
+                            <span>03</span>
+                            <h4>Show your personal level</h4>
+                        </div>
+                        <p>With our native printing technique, our canvas prints are printed to order, guaranteeing that you receive the size you want. We provide them to you as soon as we can, keeping you informed at every stage. Please let us know if you're not entirely satisfied with your order! We'll fix it right now.</p>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12 col-service">
+                    <div class="explain-block-item" data-aos="fade-up">
+                        <div class="explain-block-item-title" >
+                            <span>04</span>
+                            <h4>100% FREE DELIVERY</h4>
+                        </div>
+                        <p>Free shipping is available on all orders placed within the United States!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- faq -->
+    <section class="form-faq">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-service">
+                    <a href="#">
+                        <h2 class="title-content" data-aos="fade-up">FAQ</h2>
+                    </a>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-service d-flex">
+                    <div class="faq-item" data-aos="fade-up">
+                        <div class="faq-item-ques">
+                            <h4 data-aos="fade-up">How long will a project take to complete?</h4>
+                        </div>
+                        <p data-aos="fade-up">This is dependent on the project's size and specifications, including the quantity of painted rooms or floors, the amount of prep work required, and the need for touch-ups. Additionally, the weather needs to be taken into account.</p>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-service d-flex">
+                    <div class="faq-item" data-aos="fade-up">
+                        <div class="faq-item-ques">
+                            <h4 data-aos="fade-up">Who will paint my house?</h4>
+                        </div>
+                        <p data-aos="fade-up">Our devoted staff of painters is skilled and knowledgeable about our paints in-depth. They are skilled in the methods for applying products to produce effects that are professional.</p>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-service d-flex">
+                    <div class="faq-item" data-aos="fade-up">
+                        <div class="faq-item-ques">
+                            <h4 data-aos="fade-up">Is there any supervisor during the procedure?</h4>
+                        </div>
+                        <p data-aos="fade-up">Despite the fact that our painters have extensive training, we closely monitor your project using technology and one-on-one care to ensure a smooth delivery.</p>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-service d-flex">
+                    <div class="faq-item" data-aos="fade-up">
+                        <div class="faq-item-ques">
+                            <h4 data-aos="fade-up">Is my package insured?</h4>
+                        </div>
+                        <p data-aos="fade-up">May Decor offers a satisfaction guarantee, and if you're not happy with your purchase, we'll refund your money or send you a replacement. Please get in touch with our customer support team via LIVE CHAT or email if your delivery arrives misplaced or damaged.</p>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-service d-flex">
+                    <div class="faq-item" data-aos="fade-up">
+                        <div class="faq-item-ques">
+                            <h4 data-aos="fade-up">Is the picture on your website a true representation of what I will receive?</h4>
+                        </div>
+                        <p data-aos="fade-up">We aim for extremely high image accuracy. The visual depiction, however, could not always be accurate or the prints might differ. You have 45 days to return a goods for a refund if you are dissatisfied with it.</p>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-6 col-sm-12 col-service d-flex">
+                    <div class="faq-item" data-aos="fade-up">
+                        <div class="faq-item-ques">
+                            <h4 data-aos="fade-up">Can I ship to a P.O. Box?</h4>
+                        </div>
+                        <p data-aos="fade-up">Yes, we can deliver items that are less than 11 x 14 to a P.O. box. Larger products need to be delivered to a mailing address.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer -->
+    <footer class="footer__area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-xl-3 col-md-12 col-sm-12">
+                    <a  href="./index.html" class="footer-logo">
+                        <img src="./asset/imgs/logo.svg" alt="">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-xl-3 col-md-4 col-sm-12">
+                    <div class="footer-menu">
+                        <div class="option-title">
+                            <a href="./index.html">MENU</a>
+                        </div>
+                        <div class="menu">
+                            <ul class="menu-list menu-list-1">
+                                <li>
+                                    <a href="./index.html">Home</a>
+                                </li>
+                                <li>
+                                    <a href="./about.html">About</a>
+                                </li>
+                                <li>
+                                    <a href="./service.html">Services</a>
+                                </li>
+                                <li>
+                                    <a href="./collections.html">Collection</a>
+                                </li>
+                            </ul>
+                            <ul class="menu-list menu-list-2">
+                                <li>
+                                    <a href="./gallery.html">Gallery</a>
+                                </li>
+                                <li>
+                                    <a href="./blog.html">Blog</a>
+                                </li>
+                                <li>
+                                    <a href="./shop.html">Shop</a>
+                                </li>
+                                <li>
+                                    <a href="./sign-up.html">Sign Up</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-xl-3 col-md-4 col-sm-12">
+                    <div class="footer-contact">
+                        <div class="option-title">
+                            <a href="./contact.html">Contact</a>
+                        </div>
+                        <ul class="contact-list">
+                            <li>Hotline: </li>
+                            <li>
+                                <a href="./contact.html">+1 (2345) 678-90-12</a>
+                            </li>
+                            <li>Mail Support:</li>
+                            <li>
+                                <a href="./contact.html"> support@M.A.Y.com</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-xl-3 col-md-4 col-sm-12">
+                    <div class="footer-social">
+                        <div class="option-title">
+                            <a href="#">social</a>
+                        </div>
+                        <ul class="social-list">
+                            <li class="social-list-item">
+                                <a href="#">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li class="social-list-item">
+                                <a href="#">
+                                    <i class="fa-brands fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li class="social-list-item">
+                                <a href="#">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </a>
+                            </li>
+                            <li class="social-list-item">
+                                <a href="#">
+                                    <i class="fa-brands fa-linkedin-in"></i>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="social-app">
+                            <li class="social-app-item">
+                                <a href="#">
+                                    <img src="./asset/imgs/app-store.png" alt="">
+                                </a>
+                            </li>
+                            <li class="social-app-item">
+                                <a href="#">
+                                    <img src="./asset/imgs/google-play.png" alt="">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="footer-spr"></div>
+                </div>
+                <div class="col-lg-12 col-xl-12 col-md-12 col-sm-12">
+                    <div class="footer-commit">
+                        <div class="row">
+                            <div class="col-lg-6 col-xl-6 col-md-6 col-sm-4 order-lg-1 order-md-1 order-3">
+                                <div class="footer-license">
+                                    <span>M.A.YCopyright 2021. All Rights Reserved</span>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-xl-3 col-md-3 col-sm-4 order-lg-2 order-md-2 order-1">
+                                <div class="footer-license license-text-content">
+                                    <a href="#">Terms of Use</a>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-xl-3 col-md-3 col-sm-4 order-lg-3 order-md-3 order-2">
+                                <div class="footer-license license-text-content">
+                                    <a href="#">Privacy Policy</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Code Javascript -->
+    <script src="./asset/js/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="./asset/js/jquery-nice-select-1.1.0/jquery-nice-select-1.1.0/js/jquery.nice-select.js"></script>
+    <script src="./asset/js/index.js"></script>
+    
+</body>
+</html>

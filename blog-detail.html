@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Detail</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="asset/fonts/stylesheet.css"/>
+    <link rel="stylesheet" href="asset/fonts/RageItalic/stylesheet.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="./asset/icons/fontawesome-free-6.1.1-web/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.1/css/swiper.min.css"/>
+    <link rel="stylesheet" href="./asset/js/jquery-nice-select-1.1.0/jquery-nice-select-1.1.0/css/nice-select.css">
+    <link rel="stylesheet" href="./asset/css/base.css"/>
+    <link rel="stylesheet" href="./asset/css/home.css"/>
+    <link rel="stylesheet" href="./asset/css/home-resposive.css"/>
+    <link rel="stylesheet" href="./asset/css/subpages.css"/>
+    <link rel="stylesheet" href="./asset/css/subpages-responsive.css"/>
+</head>
+<body>
+    <!-- header PC -->
+    <header class="header-pc d-none d-lg-block d-xl-block">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <div class="header-navbar">
+                        <ul class="header-list">
+                            <li class="list-item">
+                                <a href="./index.html" class="item-link link-option">Home</a>
+                            </li>
+                            <li class="list-item">
+                                <a href="./about.html" class="item-link link-option">About</a>
+                            </li>
+                            <li class="list-item">
+                                <a href="./service.html" class="item-link link-option">Services</a>
+                            </li>
+                            <li class="list-item">
+                                <a href="./shop.html" class="item-link link-option">Shop</a>
+                            </li>
+                        </ul>
+                        <a href="./index.html" class="logo">
+                            <img src="./asset/imgs/logo.svg" alt="">
+                        </a>
+                        <ul class="header-list options">
+                            <li class="list-item">
+                                <a href="./collections.html" class="item-link link-option">COLLECTIONS</a>
+                                <ul class="list-item-options">
+                                    <li>
+                                        <a href="./collections-detail.html">landscape painting</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">portrait painting</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">religious paintings</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">abstract</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">animal paintings</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">botanical painting</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Other topics</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="list-item">
+                                <a href="./gallery.html" class="item-link link-option">Gallery</a>
+                            </li>
+                            <li class="list-item">
+                                <a href="./contact.html" class="item-link link-option">CONTACT</a>
+                            </li>
+                            <li class="list-item">
+                                <a href="./login.html" class="item-link btn-main">Login</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header Mobile + Tablet -->
+    <header class="header-mobile d-block d-xl-none d-lg-none">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <div class="mobile-nav">
+                        <a href="./index.html" class="logo-mb">
+                            <img src="./asset/imgs/logo.svg" alt="">
+                        </a>
+                        <div class="bars">
+                            <i class="fa-solid fa-bars"></i>
+                        </div>
+                        <ul class="mobile-list">
+                            <li class="mobile-list-item">
+                                <a class="mobile-list-item-link" href="./index.html">Home</a>
+                            </li>
+                            <li class="mobile-list-item">
+                                <a class="mobile-list-item-link" href="./about.html">About</a>
+                            </li>
+                            <li class="mobile-list-item">
+                                <a class="mobile-list-item-link" href="./service.html">Services</a>
+                            </li>
+                            <li class="mobile-list-item">
+                                <a class="mobile-list-item-link" href="./shop.html">Shop</a>
+                            </li>
+                            <li class="mobile-list-item">
+                                <a class="mobile-list-item-link" href="./collections.html">COLLECTIONS</a>
+                            </li>
+                            <li class="mobile-list-item">
+                                <a class="mobile-list-item-link" href="#">Gallery</a>
+                            </li>
+                            <li class="mobile-list-item">
+                                <a class="mobile-list-item-link" href="./contact.html">CONTACT</a>
+                            </li>
+                            <li class="mobile-list-item">
+                                <a href="./login.html" class="item-link btn-main">Login</a>
+                            </li>
+                            <div class="close-mobile-list">
+                                <i class="fa-solid fa-xmark"></i>
+                            </div>
+                        </ul>
+                        <div class="overlay"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- banner -->
+    <section class="banner__area">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <div class="banner">
+                        <img class="banner-img" src="./asset/imgs/bg-collections-page.jfif" alt="">
+                        <div class="banner-title">
+                            <h1></h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- posts__area -->
+    <section class="posts__area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-xl-8 offset-lg-2 offset-xl-2 col-12">
+                    <h2 class="title-content" data-aos="fade-up">Inspiration in painting</h2>
+                    <p data-aos="fade-up">Painting is a highly personal activity, sustained by inspiration rather than the control of reason. Painting works are sometimes so successful that the author doesn't even expect them to create them.</p>
+                    <p data-aos="fade-up">Inspiration in painting is the source of creativity, it is emotional, subjective and imposed, from intuition is less but from thinking is more. Therefore, each expression of inspiration of painting always contains a condensed series of images of abstract thinking, a way of creating images according to the artist's visual vision.
+                         Regarding the issue of artistic creation in general or painting in particular, although it is difficult to separate the processes of thinking activities in composition, we can basically see three types of activities as follows: one is visual (directly). ) have emotional colors; second is recollection thinking with rational color; 
+                         The third is an intuitive exploratory experience. Referring to the relationship between the artist and the object of reflection, I want to mention the inspiration of composition in three trends.</p>
+                    <h3 class="posts-title" data-aos="fade-up">Visual trends bring emotional colors</h3>
+                    <p data-aos="fade-up">The process of creating art must certainly be nourished by the artist's inspiration. Standing in front of a beautiful landscape, overflowing emotions, painters are easily inspired to work in art. Can be a distillation of visual expression, visualizing it; can be an authentic sketch; and sometimes a real creation, a work. 
+                        The intensity of the visual information shocks from the subject's side is sometimes so strong that the artist can't help but work. The basic expression of this type of inspiration arises from new encounters, field trips, unexpected discoveries, sudden, accidental feelings. It also sometimes creates a lasting inspiration to the point of becoming a visual conception, a long-lasting creative tendency.</p>
+                    <div class="thumb" data-aos="fade-up">
+                        <img src="./asset/imgs/blog-item1.jpg" alt="">
+                    </div>
+                    <p data-aos="fade-up">Regarding the style of composition, Monet does not pay much attention to composition, does not attach importance to the image, the pictures of the straw that he paints, the first thing that attracts us is not the simple colors, but the emotions. Monet's sense of color, emotional vibrations make him completely free from calculations. The free strokes of the pen blend together to make the face of the painting brighten up with colors, overlapping layers, shimmering deeply.
+                        There are not many elements such as shapes, composition, nor is it intended to transform, stylize or simplify the form, obviously, Monet's inspiration is completely from nature, and he just makes it brighter and more beautiful according to meaning of painting. In that way, Monet's painting is the satisfaction of the viewer's senses with very subtle color levels.</p>
+                    <h3 class="posts-title" data-aos="fade-up">The tendency to reminisce with rational color</h3>
+                    <p data-aos="fade-up">Above, we talked about the intensity and impact of visual information from the drawing object, that is, about the artist's subjective consciousness, emotional and emotional state. Another aspect can be said: the object is actively received from the perspective of the artist's visual perspective. In the process of exposure, the artist discovers the superiority and new features of the subject, which inspires the artist to create. This type of inspiration is extremely varied and can be very long-lasting.</p>
+                    <div class="thumb" data-aos="fade-up">
+                        <img src="./asset/imgs/gallery8-spacejoy-min.jpg" alt="">
+                    </div>
+                    <p data-aos="fade-up">With Revive, fresh and vibrant colors that bring the cool beauty of nature such as warm blue, white, yellow or neutral colors can be applied in living space, stimulating energy. and improve health. 
+                        In addition, with the color tones of Revival, you can choose to be the main color for the whole space to make the space feel larger and turn the house into a truly peaceful place. 
+                        In particular, using any of the 3 colors of Revive creates the spatial effect you want to convey.</p>
+                    <h3 class="posts-title" data-aos="fade-up">The tendency to experiment and discover intuitively</h3>
+                    <p data-aos="fade-up">When composing paintings, inspiration appears in many different forms. Formative relationships often appear as a coincidence rather than an imposition. It is possible that the painting itself is forming a great inspiration for the artist. 
+                        With this state, the artist faces the work itself, fascinated with the material, with the technique, or with the spirit of the painting, the artist enjoys the inspiration created by himself.</p>
+                    <p data-aos="fade-up">Since impressionist painting, artists have traditionally shown little interest in figure realism. But we easily agree that also since thisism, painting has changed drastically, escaping from strict rules and somewhat rational. 
+                        Since then, painting has become particularly rich and diverse in style. The spirit of the painting is hidden deep inside the visual elements and it moves closer to the emotions of the viewer. 
+                        The fast visual information of modern people encounters visual information massively, emerging on the canvas. As a result, the viewer sees the feeling, the imprint of the work before realizing the visual information about the drawing object.
+                        It is clear that inspiration makes it impossible for an artist to pay attention only to the realist sense, which already has the art of photography. They have to feel, feel what reality exudes.</p>
+                    <div class="thumb" data-aos="fade-up">
+                        <img src="./asset/imgs/gallery7-rendy-novantino-min.jpg" alt="">
+                    </div>
+                    <p data-aos="fade-up">In short, in painting creation, it is impossible to dissect the relevant issues in the most clear way. So my point is to find a way to explain the formation of a painting. Although I have tried to divide the creative process by expressions of inspiration into separate contents to approach the painting, really just one large work can prove everything. aforementioned problem.</p>
+                    <p data-aos="fade-up">It is easy for us to quickly grasp the spirit of the painting before we know what it is because visual information is the fastest and gives the most meaning to the process of absorbing the world; It's like listening to music that makes you feel happy or sad; When the weather is overcast, it feels empty… 
+                        But in order to get the spirit in that painting, how did the artist work, in what way and with what mental state, we don't? completely ambiguous. Is it just a mechanical allusion, assignment or comparison; either from experience, from one's own living capital, or a reference from the artist's living situation. 
+                        Because art is difficult to conclude, I only state my subjective opinions and wish to contribute a point of view for art lovers.</p>
+                    <p data-aos="fade-up">The art of painting is the most difficult, confusing and unexpected art form. Even though he was certain he was right about it today, tomorrow, he might need to re-examine himself.
+                         Painting does not have a constant formula, even if it is created partly thanks to the rules of shaping. The artistic value of paintings is inherent, and our discoveries always need to be newer.</p>
+                    <div class="posts-share" data-aos="fade-up">
+                        <h3 class="posts-title">Share On</h3>
+                        <ul class="share-list">
+                            <li>
+                                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                            </li>
+                            <li>
+                                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="content-more" data-aos="fade-up">
+                        <a href="#">Back</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer -->
+    <footer class="footer__area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-xl-3 col-md-12 col-sm-12">
+                    <a  href="./index.html" class="footer-logo">
+                        <img src="./asset/imgs/logo.svg" alt="">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-xl-3 col-md-4 col-sm-12">
+                    <div class="footer-menu">
+                        <div class="option-title">
+                            <a href="./index.html">MENU</a>
+                        </div>
+                        <div class="menu">
+                            <ul class="menu-list menu-list-1">
+                                <li>
+                                    <a href="./index.html">Home</a>
+                                </li>
+                                <li>
+                                    <a href="./about.html">About</a>
+                                </li>
+                                <li>
+                                    <a href="./service.html">Services</a>
+                                </li>
+                                <li>
+                                    <a href="./collections.html">Collection</a>
+                                </li>
+                            </ul>
+                            <ul class="menu-list menu-list-2">
+                                <li>
+                                    <a href="./gallery.html">Gallery</a>
+                                </li>
+                                <li>
+                                    <a href="./blog.html">Blog</a>
+                                </li>
+                                <li>
+                                    <a href="./shop.html">Shop</a>
+                                </li>
+                                <li>
+                                    <a href="./sign-up.html">Sign Up</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-xl-3 col-md-4 col-sm-12">
+                    <div class="footer-contact">
+                        <div class="option-title">
+                            <a href="./contact.html">Contact</a>
+                        </div>
+                        <ul class="contact-list">
+                            <li>Hotline: </li>
+                            <li>
+                                <a href="./contact.html">+1 (2345) 678-90-12</a>
+                            </li>
+                            <li>Mail Support:</li>
+                            <li>
+                                <a href="./contact.html"> support@M.A.Y.com</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-xl-3 col-md-4 col-sm-12">
+                    <div class="footer-social">
+                        <div class="option-title">
+                            <a href="#">social</a>
+                        </div>
+                        <ul class="social-list">
+                            <li class="social-list-item">
+                                <a href="#">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li class="social-list-item">
+                                <a href="#">
+                                    <i class="fa-brands fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li class="social-list-item">
+                                <a href="#">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </a>
+                            </li>
+                            <li class="social-list-item">
+                                <a href="#">
+                                    <i class="fa-brands fa-linkedin-in"></i>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="social-app">
+                            <li class="social-app-item">
+                                <a href="#">
+                                    <img src="./asset/imgs/app-store.png" alt="">
+                                </a>
+                            </li>
+                            <li class="social-app-item">
+                                <a href="#">
+                                    <img src="./asset/imgs/google-play.png" alt="">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="footer-spr"></div>
+                </div>
+                <div class="col-lg-12 col-xl-12 col-md-12 col-sm-12">
+                    <div class="footer-commit">
+                        <div class="row">
+                            <div class="col-lg-6 col-xl-6 col-md-6 col-sm-4 order-lg-1 order-md-1 order-3">
+                                <div class="footer-license">
+                                    <span>M.A.YCopyright 2021. All Rights Reserved</span>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-xl-3 col-md-3 col-sm-4 order-lg-2 order-md-2 order-1">
+                                <div class="footer-license license-text-content">
+                                    <a href="#">Terms of Use</a>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-xl-3 col-md-3 col-sm-4 order-lg-3 order-md-3 order-2">
+                                <div class="footer-license license-text-content">
+                                    <a href="#">Privacy Policy</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Code Javascript -->
+    <script src="./asset/js/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="./asset/js/jquery-nice-select-1.1.0/jquery-nice-select-1.1.0/js/jquery.nice-select.js"></script>
+    <script src="./asset/js/index.js"></script>
+</body>
+</html>

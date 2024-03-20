@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pay</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="asset/fonts/stylesheet.css"/>
+    <link rel="stylesheet" href="asset/fonts/RageItalic/stylesheet.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="./asset/icons/fontawesome-free-6.1.1-web/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.1/css/swiper.min.css"/>
+    <link rel="stylesheet" href="./asset/js/jquery-nice-select-1.1.0/jquery-nice-select-1.1.0/css/nice-select.css">
+    <link rel="stylesheet" href="./asset/css/base.css"/>
+    <link rel="stylesheet" href="./asset/css/home.css"/>
+    <link rel="stylesheet" href="./asset/css/home-resposive.css"/>
+    <link rel="stylesheet" href="./asset/css/subpages.css"/>
+    <link rel="stylesheet" href="./asset/css/subpages-responsive.css"/>
+</head>
+<body>
+    <!-- header PC -->
+    <header class="header-pc d-none d-lg-block d-xl-block">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <div class="header-navbar">
+                        <ul class="header-list">
+                            <li class="list-item">
+                                <a href="./index.html" class="item-link link-option">Home</a>
+                            </li>
+                            <li class="list-item">
+                                <a href="./about.html" class="item-link link-option">About</a>
+                            </li>
+                            <li class="list-item">
+                                <a href="./service.html" class="item-link link-option">Services</a>
+                            </li>
+                            <li class="list-item">
+                                <a href="./shop.html" class="item-link link-option">Shop</a>
+                            </li>
+                        </ul>
+                        <a href="./index.html" class="logo">
+                            <img src="./asset/imgs/logo.svg" alt="">
+                        </a>
+                        <ul class="header-list options">
+                            <li class="list-item">
+                                <a href="./collections.html" class="item-link link-option">COLLECTIONS</a>
+                                <ul class="list-item-options">
+                                    <li>
+                                        <a href="./collections-detail.html">landscape painting</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">portrait painting</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">religious paintings</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">abstract</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">animal paintings</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">botanical painting</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Other topics</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="list-item">
+                                <a href="./gallery.html" class="item-link link-option">Gallery</a>
+                            </li>
+                            <li class="list-item">
+                                <a href="./contact.html" class="item-link link-option">CONTACT</a>
+                            </li>
+                            <li class="list-item">
+                                <a href="./login.html" class="item-link btn-main">Login</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header Mobile + Tablet -->
+    <header class="header-mobile d-block d-xl-none d-lg-none">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <div class="mobile-nav">
+                        <a href="./index.html" class="logo-mb">
+                            <img src="./asset/imgs/logo.svg" alt="">
+                        </a>
+                        <div class="bars">
+                            <i class="fa-solid fa-bars"></i>
+                        </div>
+                        <ul class="mobile-list">
+                            <li class="mobile-list-item">
+                                <a class="mobile-list-item-link" href="./index.html">Home</a>
+                            </li>
+                            <li class="mobile-list-item">
+                                <a class="mobile-list-item-link" href="./about.html">About</a>
+                            </li>
+                            <li class="mobile-list-item">
+                                <a class="mobile-list-item-link" href="./service.html">Services</a>
+                            </li>
+                            <li class="mobile-list-item">
+                                <a class="mobile-list-item-link" href="./shop.html">Shop</a>
+                            </li>
+                            <li class="mobile-list-item">
+                                <a class="mobile-list-item-link" href="./collections.html">COLLECTIONS</a>
+                            </li>
+                            <li class="mobile-list-item">
+                                <a class="mobile-list-item-link" href="#">Gallery</a>
+                            </li>
+                            <li class="mobile-list-item">
+                                <a class="mobile-list-item-link" href="./contact.html">CONTACT</a>
+                            </li>
+                            <li class="mobile-list-item">
+                                <a href="./login.html" class="item-link btn-main">Login</a>
+                            </li>
+                            <div class="close-mobile-list">
+                                <i class="fa-solid fa-xmark"></i>
+                            </div>
+                        </ul>
+                        <div class="overlay"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- banner -->
+    <section class="banner__area">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <div class="banner">
+                        <img class="banner-img" src="./asset/imgs/bg-collections-page.jfif" alt="">
+                        <div class="banner-title">
+                            <h1>Pay</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- pay -->
+    <section class="pay">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <h3 class="pay-title" data-aos="fade-up">double check your information, the product you selected and the payment method</h3>
+                </div>
+                <div class="col-lg-4 col-xl-4 col-md-6 col-12">
+                    <div class="thumb" data-aos="fade-up">
+                        <img src="./asset/imgs/gallery1-picture-frame-wall-min.jpg" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-5 col-xl-5 col-md-6 col-12">
+                    <div class="product-info">
+                        <div class="customer-info" data-aos="fade-up">
+                            Full Name: <span>Bellezza</span>
+                        </div>
+                        <div class="customer-info" data-aos="fade-up">
+                            Email: <span>Bellezza123@gmail.com</span>
+                        </div>
+                        <div class="customer-info" data-aos="fade-up">
+                            Phone: <span>(+123) 456 789</span>
+                        </div>
+                        <div class="customer-info" data-aos="fade-up">
+                            address: <span>1417 1/2 Sierra Bonita Ave Los Angeles</span>
+                        </div>
+                        <div class="customer-info" data-aos="fade-up">
+                            Product: <span>Living Room Painting</span>
+                        </div>
+                        <div class="customer-info" data-aos="fade-up">
+                            Author: <span>Lucia</span>
+                        </div>
+                        <div class="customer-info" data-aos="fade-up">
+                            topic: <span>Landscape Painting</span>
+                        </div>
+                        <div class="customer-info" data-aos="fade-up">
+                            material: <span>Oil Painting</span>
+                        </div>
+                        <div class="customer-info" data-aos="fade-up">
+                            size: <span>1051 &#10005; 1500 (px)</span>
+                        </div>
+                        <div class="customer-info" data-aos="fade-up">
+                            Quantity:  <span>1</span>
+                        </div>
+                        <div class="customer-info" data-aos="fade-up">
+                            Transport Fee: <span>Free shipping</span>
+                        </div>
+                        <div class="customer-info" data-aos="fade-up">
+                            Total Order: <span>80$</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-xl-3 col-12">
+                    <div class="pay-method">
+                        <div class="pay-method-item">
+                            <div class="check" data-aos="fade-up">
+                                <input type="Checkbox" checked>
+                                <label>online payment</label>
+                            </div>
+                            <ul class="pay-method-online">
+                                <li class="pay-method-online-item" data-aos="fade-up">
+                                    <a class="paypal" href="#">
+                                        <img src="./asset/imgs/logo-paypal.png" alt="">
+                                    </a>
+                                </li>
+                                <li class="pay-method-online-item" data-aos="fade-up">
+                                    <a class="stripe" href="#">
+                                        <img src="./asset/imgs/logo-stripe.png" alt="">
+                                    </a>
+                                </li>
+                                <li class="pay-method-online-item" data-aos="fade-up">
+                                    <div class="item-sg">
+                                        <img src="./asset/imgs/cards_full.png" alt="">
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="pay-method-item">
+                            <div class="check" data-aos="fade-up">
+                                <input type="Checkbox">
+                                <label>Payment on delivery</label>
+                            </div>
+                        </div>
+                        <div class="completed" data-aos="fade-up">
+                            <a href="./successful.html" class="btn-main">completed</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="content-more" data-aos="fade-up">
+                        <a href="./cart.html">Back</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer -->
+    <footer class="footer__area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-xl-3 col-md-12 col-sm-12">
+                    <a  href="./index.html" class="footer-logo">
+                        <img src="./asset/imgs/logo.svg" alt="">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-xl-3 col-md-4 col-sm-12">
+                    <div class="footer-menu">
+                        <div class="option-title">
+                            <a href="./index.html">MENU</a>
+                        </div>
+                        <div class="menu">
+                            <ul class="menu-list menu-list-1">
+                                <li>
+                                    <a href="./index.html">Home</a>
+                                </li>
+                                <li>
+                                    <a href="./about.html">About</a>
+                                </li>
+                                <li>
+                                    <a href="./service.html">Services</a>
+                                </li>
+                                <li>
+                                    <a href="./collections.html">Collection</a>
+                                </li>
+                            </ul>
+                            <ul class="menu-list menu-list-2">
+                                <li>
+                                    <a href="./gallery.html">Gallery</a>
+                                </li>
+                                <li>
+                                    <a href="./blog.html">Blog</a>
+                                </li>
+                                <li>
+                                    <a href="./shop.html">Shop</a>
+                                </li>
+                                <li>
+                                    <a href="./sign-up.html">Sign Up</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-xl-3 col-md-4 col-sm-12">
+                    <div class="footer-contact">
+                        <div class="option-title">
+                            <a href="./contact.html">Contact</a>
+                        </div>
+                        <ul class="contact-list">
+                            <li>Hotline: </li>
+                            <li>
+                                <a href="./contact.html">+1 (2345) 678-90-12</a>
+                            </li>
+                            <li>Mail Support:</li>
+                            <li>
+                                <a href="./contact.html"> support@M.A.Y.com</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-xl-3 col-md-4 col-sm-12">
+                    <div class="footer-social">
+                        <div class="option-title">
+                            <a href="#">social</a>
+                        </div>
+                        <ul class="social-list">
+                            <li class="social-list-item">
+                                <a href="#">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li class="social-list-item">
+                                <a href="#">
+                                    <i class="fa-brands fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li class="social-list-item">
+                                <a href="#">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </a>
+                            </li>
+                            <li class="social-list-item">
+                                <a href="#">
+                                    <i class="fa-brands fa-linkedin-in"></i>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="social-app">
+                            <li class="social-app-item">
+                                <a href="#">
+                                    <img src="./asset/imgs/app-store.png" alt="">
+                                </a>
+                            </li>
+                            <li class="social-app-item">
+                                <a href="#">
+                                    <img src="./asset/imgs/google-play.png" alt="">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="footer-spr"></div>
+                </div>
+                <div class="col-lg-12 col-xl-12 col-md-12 col-sm-12">
+                    <div class="footer-commit">
+                        <div class="row">
+                            <div class="col-lg-6 col-xl-6 col-md-6 col-sm-4 order-lg-1 order-md-1 order-3">
+                                <div class="footer-license">
+                                    <span>M.A.YCopyright 2021. All Rights Reserved</span>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-xl-3 col-md-3 col-sm-4 order-lg-2 order-md-2 order-1">
+                                <div class="footer-license license-text-content">
+                                    <a href="#">Terms of Use</a>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-xl-3 col-md-3 col-sm-4 order-lg-3 order-md-3 order-2">
+                                <div class="footer-license license-text-content">
+                                    <a href="#">Privacy Policy</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Code Javascript -->
+    <script src="./asset/js/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="./asset/js/jquery-nice-select-1.1.0/jquery-nice-select-1.1.0/js/jquery.nice-select.js"></script>
+    <script src="./asset/js/index.js"></script>
+</body>
+</html>

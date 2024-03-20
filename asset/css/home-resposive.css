@@ -1,0 +1,529 @@
+/* Mobile */
+@media screen and (max-width: 767.98px) {
+
+    html {
+        font-size: 14px;
+    }
+
+    .title-section {
+        font-size: 28px;
+    }
+
+    .title-content {
+        font-size: 1.2rem;
+    }
+
+    /* paintings__area */
+
+    .paintings__area {
+        padding: 110px 0 20px;
+    }
+
+    .paintings__area .picture img {
+        right: 0;
+    }
+
+    .picture-info {
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    .picture .picture-combine {
+        right: 6px;
+        bottom: -100px;
+        width: 150px;
+    }
+
+    .picture-info-fish {
+        right: -40px;
+        bottom: -60px;
+        width: 150px;
+        height: 150px;
+    }
+
+    /* recomment-item */
+
+    .recomment-item {
+        width: 86%;
+    }
+
+    .recomment-item .item-product {
+        padding-bottom: 60%;
+    }
+
+    .recomment-item .item-info .item-info-avatar {
+        margin-top: 2px;
+        padding-bottom: 60%
+    }
+
+    .myRecomment .swiper-button-next {
+        right: 0;
+        background-size: 0;
+    }
+
+    .myRecomment .swiper-button-next::after {
+        font-size: 20px;
+    }
+
+    .myRecomment .swiper-button-prev {
+        left: 0;
+        background-size: 0;
+    }
+
+    .myRecomment .swiper-button-prev::after {
+        font-size: 20px;
+    }
+
+    .item-info .item-info-title {
+        margin: 10px 0;
+    }
+
+    .item-info-category {
+        margin-bottom: 10px;
+    }
+
+    .slider-recomment .octopus {
+        width: 120px;
+        height: 120px;
+        top: -10px;
+        left: -10px;
+    }
+
+    .slider-recomment .fish {
+        width: 130px;
+        height: 130px;
+        bottom: -20px;
+        right: 0;
+    }
+
+    /* explain */
+
+    .explain__area {
+        padding-bottom: 140px;
+    }
+
+    .explain-block .explain-block-item {
+        max-width: 100%;
+    }
+
+    .explain-block-item .explain-block-item-title span {
+        font-size: 70px;
+    }
+
+    .explain-block-item .explain-block-item-title h4 {
+        font-size: 14px;
+        margin-bottom: 0;
+    }
+
+    .explain-block .explain-block-turtle {
+        top: 100%;
+        left: 50%;
+        transform: translate(-50%, -10%);
+        width: 150px;
+        height: 150px;
+    }
+
+    .explain-block .explain-more::before {
+        width: 66px;
+    }
+
+    .explain-block .explain-more::after {
+        width: 66px;
+    }
+
+    /* Out paintings */
+
+    .out-panting-block .out-panting-item {
+        padding: 10px 0;
+    }
+
+    .out-panting-item .item-info-title {
+        font-size: 18px;
+    }
+
+    .item-info-category a h4 {
+        font-size: 12px;
+    }
+
+    .item-info-category span {
+        font-size: 10px;
+    }
+
+    .out-panting__area .flower {
+        width: 100px;
+        height: 100px;
+        right: 10px;
+    }
+
+    /* art-picture__area */
+
+    .art-picture__area {
+        padding-bottom: 20px;
+    }
+
+    .myArt {
+        height: 250px;
+        margin-bottom: 20px;
+    }
+
+    .myPtGallery {
+        padding: 10px 0;
+    }
+    
+    .gallery-ps {
+        width: 100px;
+        height: 100px;
+        top: 80px;
+        right: 10px;
+    }
+
+    /* form-register */
+
+    .form-register {
+        width: 100%;
+        height: 300px;
+        padding: 20px 30px;
+        flex-direction: column;
+    }
+
+    .form-register-title {
+        flex-basis: 100%;
+        text-align: center;
+    }
+    
+    .form-register-group {
+        flex-basis: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .form-register-group input {
+        width: 100%;
+    }
+
+    .form-register-group button {
+        margin-left: 0;
+        margin-top: 20px;
+    }
+
+    .picture-gallery__area::after {
+        bottom: -125%;
+    }
+
+    /* footer__area */
+
+    .footer__area {
+        padding: 20px 0 40px;
+    }
+
+    .footer-logo {
+        width: 50%;
+        padding-bottom: 30%;
+    }
+
+    .footer-logo img {
+        top: -15%;
+        left: 50%;
+    }
+
+    .option-title {
+        text-align: center;
+    }
+
+    .option-title a {
+        font-size: 16px;
+    }
+
+    .menu {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .menu-list-2 {
+        margin-left: 30px;
+    }
+
+    .menu-list {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        padding: 0;
+    }
+
+    .contact-list {
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+    }
+
+    .social-list {
+        align-items: center;
+        justify-content: center;
+        padding: 10px 0;
+    }
+
+    .social-app {
+        text-align: center;
+        justify-content: center;
+        padding: 0;
+        margin: 0;
+    }
+
+    .footer-spr {
+        margin: 30px 0;
+    }
+
+    .footer-commit {
+        padding-top: 0;
+    }
+
+    .footer-license {
+        text-align: center;
+    }
+}
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+    html {
+        font-size: 15px;
+    }
+
+    .title-content {
+        font-size: 1.4rem;
+    }
+    
+    /* header-mobile */
+
+    .header-mobile {
+        padding: 6px 20px;
+    }
+    
+    .mobile-nav .logo-mb {
+        width: 130px;
+        height: 120px;
+    }
+
+    .paintings__area {
+        padding: 170px 0 20px;
+    }
+
+    .title-section {
+        font-size: 28px;
+    }
+
+    .title-content {
+        font-size: 20px;
+    }
+
+    p {
+        font-size: 17px;
+    }
+
+    .paintings__area .picture img {
+        right: 0;
+    }
+
+    .picture-info {
+        width: 100%;
+        margin-top: 40px;
+    }
+
+    .picture .picture-combine {
+        right: 6px;
+        bottom: -120px;
+        width: 250px;
+    }
+
+    .picture-info-fish {
+        right: -100px;
+        bottom: -100px;
+        width: 200px;
+        height: 200px;
+    }
+
+    /* recomment-item */
+
+    .myRecomment .swiper-button-next {
+        right: 30px;
+        background-size: 0;
+    }
+
+    .myRecomment .swiper-button-next::after {
+        font-size: 40px;
+    }
+
+    .myRecomment .swiper-button-prev {
+        left: 30px;
+        background-size: 0;
+    }
+
+    .myRecomment .swiper-button-prev::after {
+        font-size: 40px;
+    }
+
+    .item-info .item-info-title {
+        margin: 10px 0;
+    }
+
+    .item-info-category {
+        margin-bottom: 10px;
+    }
+
+    .slider-recomment .octopus {
+        width: 160px;
+        height: 160px;
+        top: -40px;
+        left: -20px;
+    }
+
+    .slider-recomment .fish {
+        width: 160px;
+        height: 160px;
+        bottom: -40px;
+        right: -20px;
+    }
+
+    /* explain */
+
+    .explain-block .explain-block-item {
+        max-width: 70%;
+    }
+
+    .explain-block .explain-block-turtle {
+        width: 200px;
+        height: 200px;
+    }
+
+    .explain-block .explain-more::before {
+        width: 250px;
+    }
+
+    .explain-block .explain-more::after {
+        width: 250px;
+    }
+
+    /* Out paintings */
+
+    .out-panting-block .out-panting-item {
+        padding: 10px 0;
+    }
+
+    .out-panting-item .item-info-title {
+        font-size: 18px;
+    }
+
+    .item-info-category a h4 {
+        font-size: 12px;
+    }
+
+    .item-info-category span {
+        font-size: 10px;
+    }
+
+    .out-panting__area .flower {
+        width: 120px;
+        height: 120px;
+        right: 20px;
+    }
+
+    /* form-register */
+
+    .form-register {
+        padding: 0 20px;
+    }
+
+    .form-register-group input {
+        width: 70%;
+    }
+
+    .form-register-group button {
+        margin-left: 20px;
+    }
+
+    .picture-gallery__area::after {
+        bottom: -85%;
+    }
+
+    .gallery-ps {
+        width: 160px;
+        height: 170px;
+        right: 10px;
+    }
+
+    /* footer__area */
+
+    .footer__area {
+        padding: 20px 0 40px;
+    }
+
+    .footer-logo {
+        width: 50%;
+        padding-bottom: 30%;
+    }
+
+    .footer-logo img {
+        top: -15%;
+        left: 50%;
+    }
+
+}
+
+/* PC cấu hình thấp */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+    html {
+        font-size: 14px;
+    }
+
+    .item-info .item-info-title {
+        font-size: 20px;
+    }
+
+    .item-info .item-info-category .category-title {
+        font-size: 12px;
+        white-space: wrap;
+    }
+
+    .item-info .item-info-category .number {
+        font-size: 12px;
+    }
+
+    .explain-block .explain-more::after, .explain-block .explain-more::before {
+        width: 300px;
+    }
+
+    .gallery-ps {
+        width: 300px;
+        height: 300px;
+    }
+
+    .picture-gallery__area::after {
+        bottom: -70%;
+    }
+
+    .list-item + .list-item {
+        margin-left: 10px;
+    }
+
+    .header-navbar .logo {
+        width: 150px;
+        height: 70px;
+    }
+
+}
+
+/* PC cấu hình cao */
+@media (min-width: 1200px) and (max-width: 1286px) {
+    
+    html {
+        font-size: 16px;
+    }
+
+    .picture-gallery__area::after {
+        bottom: -70%;
+    }
+}

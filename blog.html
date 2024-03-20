@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="asset/fonts/stylesheet.css"/>
+    <link rel="stylesheet" href="asset/fonts/RageItalic/stylesheet.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="./asset/icons/fontawesome-free-6.1.1-web/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.1/css/swiper.min.css"/>
+    <link rel="stylesheet" href="./asset/js/jquery-nice-select-1.1.0/jquery-nice-select-1.1.0/css/nice-select.css">
+    <link rel="stylesheet" href="./asset/css/base.css"/>
+    <link rel="stylesheet" href="./asset/css/home.css"/>
+    <link rel="stylesheet" href="./asset/css/home-resposive.css"/>
+    <link rel="stylesheet" href="./asset/css/subpages.css"/>
+    <link rel="stylesheet" href="./asset/css/subpages-responsive.css"/>
+</head>
+<body>
+    <!-- header PC -->
+    <header class="header-pc d-none d-lg-block d-xl-block">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <div class="header-navbar">
+                        <ul class="header-list">
+                            <li class="list-item">
+                                <a href="./index.html" class="item-link link-option">Home</a>
+                            </li>
+                            <li class="list-item">
+                                <a href="./about.html" class="item-link link-option">About</a>
+                            </li>
+                            <li class="list-item">
+                                <a href="./service.html" class="item-link link-option">Services</a>
+                            </li>
+                            <li class="list-item">
+                                <a href="./shop.html" class="item-link link-option">Shop</a>
+                            </li>
+                        </ul>
+                        <a href="./index.html" class="logo">
+                            <img src="./asset/imgs/logo.svg" alt="">
+                        </a>
+                        <ul class="header-list options">
+                            <li class="list-item">
+                                <a href="./collections.html" class="item-link link-option">COLLECTIONS</a>
+                                <ul class="list-item-options">
+                                    <li>
+                                        <a href="./collections-detail.html">landscape painting</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">portrait painting</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">religious paintings</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">abstract</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">animal paintings</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">botanical painting</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">Other topics</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="list-item">
+                                <a href="./gallery.html" class="item-link link-option">Gallery</a>
+                            </li>
+                            <li class="list-item">
+                                <a href="./contact.html" class="item-link link-option">CONTACT</a>
+                            </li>
+                            <li class="list-item">
+                                <a href="./login.html" class="item-link btn-main">Login</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header Mobile + Tablet -->
+    <header class="header-mobile d-block d-xl-none d-lg-none">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <div class="mobile-nav">
+                        <a href="./index.html" class="logo-mb">
+                            <img src="./asset/imgs/logo.svg" alt="">
+                        </a>
+                        <div class="bars">
+                            <i class="fa-solid fa-bars"></i>
+                        </div>
+                        <ul class="mobile-list">
+                            <li class="mobile-list-item">
+                                <a class="mobile-list-item-link" href="./index.html">Home</a>
+                            </li>
+                            <li class="mobile-list-item">
+                                <a class="mobile-list-item-link" href="./about.html">About</a>
+                            </li>
+                            <li class="mobile-list-item">
+                                <a class="mobile-list-item-link" href="./service.html">Services</a>
+                            </li>
+                            <li class="mobile-list-item">
+                                <a class="mobile-list-item-link" href="./shop.html">Shop</a>
+                            </li>
+                            <li class="mobile-list-item">
+                                <a class="mobile-list-item-link" href="./collections.html">COLLECTIONS</a>
+                            </li>
+                            <li class="mobile-list-item">
+                                <a class="mobile-list-item-link" href="#">Gallery</a>
+                            </li>
+                            <li class="mobile-list-item">
+                                <a class="mobile-list-item-link" href="./contact.html">CONTACT</a>
+                            </li>
+                            <li class="mobile-list-item">
+                                <a href="./login.html" class="item-link btn-main">Login</a>
+                            </li>
+                            <div class="close-mobile-list">
+                                <i class="fa-solid fa-xmark"></i>
+                            </div>
+                        </ul>
+                        <div class="overlay"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- banner -->
+    <section class="banner__area">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <div class="banner">
+                        <img class="banner-img" src="./asset/imgs/bg-collections-page.jfif" alt="">
+                        <div class="banner-title">
+                            <h1>Blog</h1>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- blog -->
+    <section class="blog__area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-xl-8 col-md-12 col-sm-12">
+                    <div class="row">
+                        <div class="col-lg-6 col-xl-6 col-md-6 col-sm-12 col-extra d-flex">
+                            <div class="blog-item" data-aos="fade-up">
+                                <a href="./blog-detail.html" class="thumb">
+                                    <img src="./asset/imgs/blog-item1.jpg" alt="">
+                                </a>
+                                <div class="blog-item-content">
+                                    <div class="blog-item-content-info">
+                                        <div class="author">By: <a href="#">Lucipher</a></div>
+                                        <div class="share">
+                                            <a href="#">Share <i class="fa-solid fa-share-nodes"></i></a>
+                                        </div>
+                                        <div class="read">20/10/2022<i class="fa-regular fa-clock"></i></div>
+                                    </div>
+                                    <a href="./blog-detail.html" class="blog-item-title" >
+                                        <h4>Inspiration in painting</h4>
+                                    </a>
+                                    <p>Inspiration in painting is the source of creativity, it is emotional, subjective and imposed, from intuition is less but from thinking is more. Therefore, each expression of inspiration of painting always contains a condensed series of images of abstract thinking, a way of creating images according to the artist's visual vision.
+                                        Regarding the issue of artistic creation in general or painting in particular, although it is difficult to separate the processes of thinking activities in composition, we can basically see three types of activities as follows: one is visual (directly). ) have emotional colors; second is recollection thinking with rational color; 
+                                        The third is an intuitive exploratory experience. Referring to the relationship between the artist and the object of reflection, I want to mention the inspiration of composition in three trends.</p>
+                                    <div class="view-more">
+                                        <a href="./blog-detail.html" class="">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-xl-6 col-md-6 col-sm-12 col-extra d-flex">
+                            <div class="blog-item" data-aos="fade-up">
+                                <a href="#" class="thumb">
+                                    <img src="./asset/imgs/blog-item2.jpg" alt="">
+                                </a>
+                                <div class="blog-item-content">
+                                    <div class="blog-item-content-info">
+                                        <div class="author">By: <a href="#">Lucipher</a></div>
+                                        <div class="share">
+                                            <a href="#">Share <i class="fa-solid fa-share-nodes"></i></a>
+                                        </div>
+                                        <div class="read">20/10/2022<i class="fa-regular fa-clock"></i></div>
+                                    </div>
+                                    <a href="#" class="blog-item-title" >
+                                        <h4>Learn How Art Can Motivate Your Mind & Heart</h4>
+                                    </a>
+                                    <p>Despite the fact that Rumi, a Persian mystic, composed his lyrics more than eight centuries ago, his message of liberty couldn't be more applicable today. Rumi once said that much of the poetry he wrote expressed the human soul's great longing to be joined with the Divine. According to Rumi, 
+                                        this reunion is not limited to formal religious worship but is instead present and accessible through human love and the recognition of the sacred in everyday life, such as in the burst of bird song at dawn, the petrichor scent of unexpected rain on ancient stones, 
+                                        or a loaf of bread that is still warm from the oven.</p>
+                                    <div class="view-more">
+                                        <a href="./blog-detail.html" class="">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-xl-6 col-md-6 col-sm-12 col-extra d-flex">
+                            <div class="blog-item" data-aos="fade-up">
+                                <a href="#" class="thumb">
+                                    <img src="./asset/imgs/blog-item3.jpg" alt="">
+                                </a>
+                                <div class="blog-item-content">
+                                    <div class="blog-item-content-info">
+                                        <div class="author">By: <a href="#">Lucipher</a></div>
+                                        <div class="share">
+                                            <a href="#">Share <i class="fa-solid fa-share-nodes"></i></a>
+                                        </div>
+                                        <div class="read">20/10/2022<i class="fa-regular fa-clock"></i></div>
+                                    </div>
+                                    <a href="#" class="blog-item-title">
+                                        <h4>5 Halloween Canvas Prints You Must Have in 2022</h4>
+                                    </a>
+                                    <p>Something about Halloween makes us all yearn for a satisfying scare. If you want to keep with the theme of the holiday, use ominous decorations like skulls, zombies, and more. 
+                                        These canvas wall art pieces are excellent seasonal additions to your decor to bring home those spooky sensations.</p>
+                                    <div class="view-more">
+                                        <a href="./blog-detail.html" class="">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-xl-6 col-md-6 col-sm-12 col-extra d-flex">
+                            <div class="blog-item" data-aos="fade-up">
+                                <a href="#" class="thumb">
+                                    <img src="./asset/imgs/blog-item4.jpg" alt="">
+                                </a>
+                                <div class="blog-item-content">
+                                    <div class="blog-item-content-info">
+                                        <div class="author">By: <a href="#">Lucipher</a></div>
+                                        <div class="share">
+                                            <a href="#">Share <i class="fa-solid fa-share-nodes"></i></a>
+                                        </div>
+                                        <div class="read">20/10/2022<i class="fa-regular fa-clock"></i></div>
+                                    </div>
+                                    <a href="#" class="blog-item-title" >
+                                        <h4>Choosing Canvas Art Prints for Your Home</h4>
+                                    </a>
+                                    <p>Whatever your personal style, a lot of us learned to value the function of home furnishings and wall art during the pandemic. 
+                                        Although we already know this practically and intuitively, a great deal of research backs up our practical knowledge and emphasizes the importance of art in our lives.</p>
+                                    <div class="view-more">
+                                        <a href="./blog-detail.html" class="">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-xl-6 col-md-6 col-sm-12 col-extra d-flex">
+                            <div class="blog-item" data-aos="fade-up">
+                                <a href="#" class="thumb">
+                                    <img src="./asset/imgs/blog-item1.jpg" alt="">
+                                </a>
+                                <div class="blog-item-content">
+                                    <div class="blog-item-content-info">
+                                        <div class="author">By: <a href="#">Lucipher</a></div>
+                                        <div class="share">
+                                            <a href="#">Share <i class="fa-solid fa-share-nodes"></i></a>
+                                        </div>
+                                        <div class="read">20/10/2022<i class="fa-regular fa-clock"></i></div>
+                                    </div>
+                                    <a href="#" class="blog-item-title" >
+                                        <h4>In Your Beach-Themed Bathroom, Create a Coastal Oasis</h4>
+                                    </a>
+                                    <p>There are undoubtedly several family members or friends that own iconic or symbolic knickknacks or keepsakes from the seaside. 
+                                        We love the beach so much that we want to bring a piece of it home with us, whether it's an eclectic collection of seashells, 
+                                        beach photos, or vials of sand from various shorelines.</p>
+                                    <div class="view-more">
+                                        <a href="./blog-detail.html" class="">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-xl-6 col-md-6 col-sm-12 col-extra d-flex">
+                            <div class="blog-item" data-aos="fade-up">
+                                <a href="#" class="thumb">
+                                    <img src="./asset/imgs/blog-item2.jpg" alt="">
+                                </a>
+                                <div class="blog-item-content">
+                                    <div class="blog-item-content-info">
+                                        <div class="author">By: <a href="#">Lucipher</a></div>
+                                        <div class="share">
+                                            <a href="#">Share <i class="fa-solid fa-share-nodes"></i></a>
+                                        </div>
+                                        <div class="read">20/10/2022<i class="fa-regular fa-clock"></i></div>
+                                    </div>
+                                    <a href="#" class="blog-item-title" >
+                                        <h4>How to hang Canvas Wall Art</h4>
+                                    </a>
+                                    <p>The hardest portion of the process is over, whether it was one notable work or a run of prints, right? 
+                                        If you're like us, hanging art appears like a difficult, unpleasant activity that comes with a high risk of making a mistake.</p>
+                                    <div class="view-more">
+                                        <a href="./blog-detail.html" class="">Read More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12">
+                    <div class="blog-new">
+                        <div class="row">
+                            <div class="col-12 col-extra d-flex">
+                                <h3 class="blog-new-title" data-aos="fade-up">Recent Posts</h3>
+                            </div>
+                            <div class="col-12 col-extra d-flex">
+                                <div class="blog-new-item" data-aos="fade-up">
+                                    <a href="#" class="thumb">
+                                        <img src="./asset/imgs/blog-item1.jpg" alt="">
+                                    </a>
+                                    <div class="content">
+                                        <a href="#" class="">
+                                            <h4>Why Kitchens Aren't the Only Place for Food-Themed Art</h4>
+                                            <p>What artwork will look best in your space depends on a number of things. Naturally, there are no rules. You might want to have brilliantly colored, amusing pieces throughout your house, 
+                                                or you might decide to hang a somber piece of art in your kitchen. Please excuse the pun, but it's all a matter of preference. Additionally, as Canvas Art Prints are movable feasts, 
+                                                you can quickly transform any area by removing a Canvas Art Print from its nail and replacing it with whatever suits your mood at the time.</p>
+                                            <h6>John Smith</h6>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-extra d-flex">
+                                <div class="blog-new-item" data-aos="fade-up">
+                                    <a href="#" class="thumb">
+                                        <img src="./asset/imgs/blog-item2.jpg" alt="">
+                                    </a>
+                                    <div class="content">
+                                        <a href="#" class="">
+                                            <h4>How Colorful Art Can Change Your Environment </h4>
+                                            <p>All glory be to the cone, which is the photoreceptor structure found in the human eye and not an ice cream cone or a cone of silence. Additionally, the rod photoreceptors in your eye are technically more sensitive to light. 
+                                                However, three separate types of cone cells that respond to different light wavelengths are responsible for how we perceive color.</p>
+                                            <h6>John Smith</h6>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-extra d-flex">
+                                <div class="blog-new-item" data-aos="fade-up">
+                                    <a href="#" class="thumb">
+                                        <img src="./asset/imgs/blog-item3.jpg" alt="">
+                                    </a>
+                                    <div class="content">
+                                        <a href="#" class="">
+                                            <h4>For Your Fine Art Prints, the Best Spring Colors</h4>
+                                            <p>The colors of spring are out in full force everywhere you look, from burgeoning plants to dreamlike vistas. We thought it could be fun to look at the spring colors for 2022 as they relate to home design when the country's remaining frost melts.</p>
+                                            <h6>John Smith</h6>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-extra d-flex">
+                                <div class="blog-new-item" data-aos="fade-up">
+                                    <a href="#" class="thumb">
+                                        <img src="./asset/imgs/blog-item4.jpg" alt="">
+                                    </a>
+                                    <div class="content">
+                                        <a href="#" class="">
+                                            <h4>You Need Our New Canvas Art Sets For this</h4>
+                                            <p>Art and interior design go hand in hand. It might be challenging to find the ideal items to highlight distinctive aspects of your space, flawlessly complete a design narrative, stay on budget, and still produce a work of art.</p>
+                                            <h6>John Smith</h6>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-extra d-flex">
+                                <div class="blog-new-item" data-aos="fade-up">
+                                    <a href="#" class="thumb">
+                                        <img src="./asset/imgs/blog-item1.jpg" alt="">
+                                    </a>
+                                    <div class="content">
+                                        <a href="#" class="">
+                                            <h4>Peek Inside Interior Designer Dabito’s Eclectic Home </h4>
+                                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ultrices felis sit amet viverra pretium. Duis convallis consequat pretium.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla ultrices felis sit amet viverra pretium. Duis convallis consequat pretium.</p>
+                                            <h6>John Smith</h6>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-extra d-flex">
+                                <div class="blog-new-item" data-aos="fade-up">
+                                    <div class="view-more">
+                                        <a href="#">View More</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12 col-extra d-flex">
+                                <div class="spr-blog" data-aos="fade-up"></div>
+                            </div>
+                            <div class="col-12 col-extra d-flex">
+                                <h3 class="blog-new-title" data-aos="fade-up">Recent Comments</h3>
+                            </div>
+                            <div class="col-12 col-extra d-flex">
+                                <div class="blog-new-item" data-aos="fade-up">
+                                    <ul class="comment-list">
+                                        <li class="comment-list-item">
+                                            <a href="" class="thumb-avatar">
+                                                <img src="./asset/imgs/about-member1.jpg" alt="">
+                                            </a>
+                                            <div class="cmt-content">
+                                                <a href="#">Savannah Barbara</a>
+                                                <p>It's done with such professionalism! This image is ideal for autumn. is ideal for my fall-themed guest bathroom!</p>
+                                            </div>
+                                        </li>
+                                        <li class="comment-list-item">
+                                            <a href="" class="thumb-avatar">
+                                                <img src="./asset/imgs/about-member1.jpg" alt="">
+                                            </a>
+                                            <div class="cmt-content">
+                                                <a href="#">Brendon Curtis</a>
+                                                <p>Arrived just as shown. I'm happy with the purchase.</p>
+                                            </div>
+                                        </li>
+                                        <li class="comment-list-item">
+                                            <a href="" class="thumb-avatar">
+                                                <img src="./asset/imgs/about-member1.jpg" alt="">
+                                            </a>
+                                            <div class="cmt-content">
+                                                <a href="#">Ruby Cullen</a>
+                                                <p>Amazing in person, loved our canvas print! Quick and safely packaged delivery.</p>
+                                            </div>
+                                        </li>
+                                        <li class="comment-list-item">
+                                            <a href="" class="thumb-avatar">
+                                                <img src="./asset/imgs/about-member1.jpg" alt="">
+                                            </a>
+                                            <div class="cmt-content">
+                                                <a href="#">Beau Theodore</a>
+                                                <p>Charming canvas made of excellent materials and colors. In my half-bath with an autumnal theme, it looks fantastic. Love it!</p>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="col-12 col-extra d-flex">
+                                <div class="blog-new-item" data-aos="fade-up">
+                                    <div class="view-more">
+                                        <a href="#">View More</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- paging -->
+    <section class="paging__area blog-paging">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
+                    <div class="paging" data-aos="fade-up">
+                        <a href="#"><i class="fa-solid fa-angle-left"></i></a>
+                        <a href="#" class="paging-active">1</a>
+                        <a href="#">2</a>
+                        <a href="#">3</a>
+                        <a href="#">...</a>
+                        <a href="#"><i class="fa-solid fa-angle-right"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer -->
+    <footer class="footer__area">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-xl-3 col-md-12 col-sm-12">
+                    <a  href="./index.html" class="footer-logo">
+                        <img src="./asset/imgs/logo.svg" alt="">
+                    </a>
+                </div>
+                <div class="col-lg-3 col-xl-3 col-md-4 col-sm-12">
+                    <div class="footer-menu">
+                        <div class="option-title">
+                            <a href="./index.html">MENU</a>
+                        </div>
+                        <div class="menu">
+                            <ul class="menu-list menu-list-1">
+                                <li>
+                                    <a href="./index.html">Home</a>
+                                </li>
+                                <li>
+                                    <a href="./about.html">About</a>
+                                </li>
+                                <li>
+                                    <a href="./service.html">Services</a>
+                                </li>
+                                <li>
+                                    <a href="./collections.html">Collection</a>
+                                </li>
+                            </ul>
+                            <ul class="menu-list menu-list-2">
+                                <li>
+                                    <a href="./gallery.html">Gallery</a>
+                                </li>
+                                <li>
+                                    <a href="./blog.html">Blog</a>
+                                </li>
+                                <li>
+                                    <a href="./shop.html">Shop</a>
+                                </li>
+                                <li>
+                                    <a href="./sign-up.html">Sign Up</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-xl-3 col-md-4 col-sm-12">
+                    <div class="footer-contact">
+                        <div class="option-title">
+                            <a href="./contact.html">Contact</a>
+                        </div>
+                        <ul class="contact-list">
+                            <li>Hotline: </li>
+                            <li>
+                                <a href="./contact.html">+1 (2345) 678-90-12</a>
+                            </li>
+                            <li>Mail Support:</li>
+                            <li>
+                                <a href="./contact.html"> support@M.A.Y.com</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-xl-3 col-md-4 col-sm-12">
+                    <div class="footer-social">
+                        <div class="option-title">
+                            <a href="#">social</a>
+                        </div>
+                        <ul class="social-list">
+                            <li class="social-list-item">
+                                <a href="#">
+                                    <i class="fa-brands fa-facebook-f"></i>
+                                </a>
+                            </li>
+                            <li class="social-list-item">
+                                <a href="#">
+                                    <i class="fa-brands fa-twitter"></i>
+                                </a>
+                            </li>
+                            <li class="social-list-item">
+                                <a href="#">
+                                    <i class="fa-brands fa-instagram"></i>
+                                </a>
+                            </li>
+                            <li class="social-list-item">
+                                <a href="#">
+                                    <i class="fa-brands fa-linkedin-in"></i>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="social-app">
+                            <li class="social-app-item">
+                                <a href="#">
+                                    <img src="./asset/imgs/app-store.png" alt="">
+                                </a>
+                            </li>
+                            <li class="social-app-item">
+                                <a href="#">
+                                    <img src="./asset/imgs/google-play.png" alt="">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="footer-spr"></div>
+                </div>
+                <div class="col-lg-12 col-xl-12 col-md-12 col-sm-12">
+                    <div class="footer-commit">
+                        <div class="row">
+                            <div class="col-lg-6 col-xl-6 col-md-6 col-sm-4 order-lg-1 order-md-1 order-3">
+                                <div class="footer-license">
+                                    <span>M.A.YCopyright 2021. All Rights Reserved</span>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-xl-3 col-md-3 col-sm-4 order-lg-2 order-md-2 order-1">
+                                <div class="footer-license license-text-content">
+                                    <a href="#">Terms of Use</a>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 col-xl-3 col-md-3 col-sm-4 order-lg-3 order-md-3 order-2">
+                                <div class="footer-license license-text-content">
+                                    <a href="#">Privacy Policy</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Code Javascript -->
+    <script src="./asset/js/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+    <script src="./asset/js/jquery-nice-select-1.1.0/jquery-nice-select-1.1.0/js/jquery.nice-select.js"></script>
+    <script src="./asset/js/index.js"></script>
+</body>
+</html>
